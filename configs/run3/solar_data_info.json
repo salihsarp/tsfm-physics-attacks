@@ -1,0 +1,247 @@
+{
+  "domain": "solar",
+  "sites": [
+    "solar109",
+    "solar21",
+    "solar22",
+    "solar286",
+    "solar287",
+    "solar288",
+    "solar289",
+    "solar290",
+    "solar291",
+    "solar3",
+    "solar362",
+    "solar363",
+    "solar364",
+    "solar365",
+    "solar433",
+    "solar434",
+    "solar435",
+    "solar436",
+    "solar437",
+    "solar438",
+    "solar509",
+    "solar530"
+  ],
+  "caps": {
+    "solar109": 29.7,
+    "solar21": 1.5,
+    "solar22": 230.0,
+    "solar286": 1.05,
+    "solar287": 22.5,
+    "solar288": 5.5,
+    "solar289": 7.95,
+    "solar290": 10.42,
+    "solar291": 30.52,
+    "solar3": 10.0,
+    "solar362": 29.1,
+    "solar363": 7.5,
+    "solar364": 7.5,
+    "solar365": 4.4,
+    "solar433": 7.5,
+    "solar434": 21.22,
+    "solar435": 21.22,
+    "solar436": 21.22,
+    "solar437": 21.22,
+    "solar438": 42.45,
+    "solar509": 33.0,
+    "solar530": 85.5
+  },
+  "ramp": {
+    "solar109": 0.6800254500000014,
+    "solar21": 0.7650120916666676,
+    "solar22": 0.7650120916666675,
+    "solar286": 0.6617733666666679,
+    "solar287": 0.6403396666666679,
+    "solar288": 0.7496966333333336,
+    "solar289": 0.7246772333333336,
+    "solar290": 0.7246772333333336,
+    "solar291": 0.6378396000000026,
+    "solar3": 0.6882071250000015,
+    "solar362": 0.6690291666666675,
+    "solar363": 0.7193892000000045,
+    "solar364": 0.6571515000000008,
+    "solar365": 0.6358332166666676,
+    "solar433": 0.6435202083333343,
+    "solar434": 0.7103181333333344,
+    "solar435": 0.6882143250000013,
+    "solar436": 0.6435202083333342,
+    "solar437": 0.6435202083333342,
+    "solar438": 0.7080055666666679,
+    "solar509": 0.6249305500000023,
+    "solar530": 0.7002722666666672
+  },
+  "physics_tau": {
+    "level": 0.075,
+    "ramp": 0.075
+  },
+  "physics_night_rule": true,
+  "physics_calibration": [
+    {
+      "rule": "level",
+      "night_rule": true,
+      "tau": 0.0,
+      "fpr_validation": 0.12236736870167955
+    },
+    {
+      "rule": "level",
+      "night_rule": true,
+      "tau": 0.005,
+      "fpr_validation": 0.09050919754732072
+    },
+    {
+      "rule": "level",
+      "night_rule": true,
+      "tau": 0.01,
+      "fpr_validation": 0.07171420954412157
+    },
+    {
+      "rule": "level",
+      "night_rule": true,
+      "tau": 0.015,
+      "fpr_validation": 0.05518528392428686
+    },
+    {
+      "rule": "level",
+      "night_rule": true,
+      "tau": 0.02,
+      "fpr_validation": 0.04425486536923487
+    },
+    {
+      "rule": "level",
+      "night_rule": true,
+      "tau": 0.03,
+      "fpr_validation": 0.026526259664089575
+    },
+    {
+      "rule": "level",
+      "night_rule": true,
+      "tau": 0.04,
+      "fpr_validation": 0.013996267661956812
+    },
+    {
+      "rule": "level",
+      "night_rule": true,
+      "tau": 0.05,
+      "fpr_validation": 0.008131165022660624
+    },
+    {
+      "rule": "level",
+      "night_rule": true,
+      "tau": 0.075,
+      "fpr_validation": 0.0039989336177019465
+    },
+    {
+      "rule": "ramp",
+      "night_rule": true,
+      "tau": 0.0,
+      "fpr_validation": 0.020394561450279926
+    },
+    {
+      "rule": "ramp",
+      "night_rule": true,
+      "tau": 0.005,
+      "fpr_validation": 0.01919488136496934
+    },
+    {
+      "rule": "ramp",
+      "night_rule": true,
+      "tau": 0.01,
+      "fpr_validation": 0.01812849906691549
+    },
+    {
+      "rule": "ramp",
+      "night_rule": true,
+      "tau": 0.015,
+      "fpr_validation": 0.016129032258064516
+    },
+    {
+      "rule": "ramp",
+      "night_rule": true,
+      "tau": 0.02,
+      "fpr_validation": 0.015062649960010664
+    },
+    {
+      "rule": "ramp",
+      "night_rule": true,
+      "tau": 0.03,
+      "fpr_validation": 0.01213009864036257
+    },
+    {
+      "rule": "ramp",
+      "night_rule": true,
+      "tau": 0.04,
+      "fpr_validation": 0.010530525193281792
+    },
+    {
+      "rule": "ramp",
+      "night_rule": true,
+      "tau": 0.05,
+      "fpr_validation": 0.00959744068248467
+    },
+    {
+      "rule": "ramp",
+      "night_rule": true,
+      "tau": 0.075,
+      "fpr_validation": 0.004665422553985604
+    }
+  ],
+  "physics_fpr_validation": 0.00866435617168755,
+  "physics_fpr_attack_days": 0.00946969696969697,
+  "site_names": {
+    "solar109": "solar109",
+    "solar21": "solar21",
+    "solar22": "solar22",
+    "solar286": "solar286",
+    "solar287": "solar287",
+    "solar288": "solar288",
+    "solar289": "solar289",
+    "solar290": "solar290",
+    "solar291": "solar291",
+    "solar3": "solar3",
+    "solar362": "solar362",
+    "solar363": "solar363",
+    "solar364": "solar364",
+    "solar365": "solar365",
+    "solar433": "solar433",
+    "solar434": "solar434",
+    "solar435": "solar435",
+    "solar436": "solar436",
+    "solar437": "solar437",
+    "solar438": "solar438",
+    "solar509": "solar509",
+    "solar530": "solar530"
+  },
+  "da_columns": {
+    "solar109": 99,
+    "solar21": 99,
+    "solar22": 99,
+    "solar286": 99,
+    "solar287": 99,
+    "solar288": 99,
+    "solar289": 99,
+    "solar290": 99,
+    "solar291": 99,
+    "solar362": 99,
+    "solar363": 99,
+    "solar364": 99,
+    "solar365": 99,
+    "solar3": 99,
+    "solar433": 99,
+    "solar434": 99,
+    "solar435": 99,
+    "solar436": 99,
+    "solar437": 99,
+    "solar438": 99,
+    "solar509": 99,
+    "solar530": 99
+  },
+  "da_lag_hours": 0,
+  "n_train": 7678,
+  "n_test": 8008,
+  "n_attack_subset": 528,
+  "n_test_with_covariate": 7656,
+  "hours": 17520,
+  "missing_frac": 0.0
+}

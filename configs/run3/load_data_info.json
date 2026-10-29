@@ -1,0 +1,188 @@
+{
+  "domain": "load",
+  "sites": [
+    "Coast",
+    "ERCOT_total",
+    "East",
+    "Far_West",
+    "North",
+    "North_Central",
+    "South_Central",
+    "Southern",
+    "West"
+  ],
+  "caps": {
+    "Coast": 20118.529134114582,
+    "ERCOT_total": 69556.72330729167,
+    "East": 3646.4837036132812,
+    "Far_West": 3012.0682983398438,
+    "North": 1845.4761250813801,
+    "North_Central": 24085.296061197918,
+    "South_Central": 12038.224446614584,
+    "Southern": 5791.6866455078125,
+    "West": 2227.748738606771
+  },
+  "ramp": {
+    "Coast": 0.07592005593834059,
+    "ERCOT_total": 0.07872786663634947,
+    "East": 0.08852195919101927,
+    "Far_West": 0.08433758279959708,
+    "North": 0.13004619307373583,
+    "North_Central": 0.08669606066990428,
+    "South_Central": 0.08891892729364907,
+    "Southern": 0.0896114054687496,
+    "West": 0.10839974454034185
+  },
+  "physics_tau": {
+    "level": 0.3,
+    "ramp": 0.015
+  },
+  "physics_night_rule": false,
+  "physics_calibration": [
+    {
+      "rule": "level",
+      "night_rule": false,
+      "tau": 0.0,
+      "fpr_validation": 0.5724991854024112
+    },
+    {
+      "rule": "level",
+      "night_rule": false,
+      "tau": 0.005,
+      "fpr_validation": 0.5246008471814924
+    },
+    {
+      "rule": "level",
+      "night_rule": false,
+      "tau": 0.01,
+      "fpr_validation": 0.47539915281850764
+    },
+    {
+      "rule": "level",
+      "night_rule": false,
+      "tau": 0.015,
+      "fpr_validation": 0.43010752688172044
+    },
+    {
+      "rule": "level",
+      "night_rule": false,
+      "tau": 0.02,
+      "fpr_validation": 0.39589442815249265
+    },
+    {
+      "rule": "level",
+      "night_rule": false,
+      "tau": 0.03,
+      "fpr_validation": 0.3284457478005865
+    },
+    {
+      "rule": "level",
+      "night_rule": false,
+      "tau": 0.04,
+      "fpr_validation": 0.2750081459758879
+    },
+    {
+      "rule": "level",
+      "night_rule": false,
+      "tau": 0.05,
+      "fpr_validation": 0.2411208862821766
+    },
+    {
+      "rule": "level",
+      "night_rule": false,
+      "tau": 0.075,
+      "fpr_validation": 0.18507657217334636
+    },
+    {
+      "rule": "level",
+      "night_rule": false,
+      "tau": 0.1,
+      "fpr_validation": 0.1508634734441186
+    },
+    {
+      "rule": "level",
+      "night_rule": false,
+      "tau": 0.125,
+      "fpr_validation": 0.11893124796350603
+    },
+    {
+      "rule": "level",
+      "night_rule": false,
+      "tau": 0.15,
+      "fpr_validation": 0.09156076898012382
+    },
+    {
+      "rule": "level",
+      "night_rule": false,
+      "tau": 0.2,
+      "fpr_validation": 0.0433365917236885
+    },
+    {
+      "rule": "level",
+      "night_rule": false,
+      "tau": 0.25,
+      "fpr_validation": 0.008797653958944282
+    },
+    {
+      "rule": "level",
+      "night_rule": false,
+      "tau": 0.3,
+      "fpr_validation": 0.0013033561420658195
+    },
+    {
+      "rule": "ramp",
+      "night_rule": false,
+      "tau": 0.0,
+      "fpr_validation": 0.03779732811990877
+    },
+    {
+      "rule": "ramp",
+      "night_rule": false,
+      "tau": 0.005,
+      "fpr_validation": 0.01270772238514174
+    },
+    {
+      "rule": "ramp",
+      "night_rule": false,
+      "tau": 0.01,
+      "fpr_validation": 0.007168458781362007
+    },
+    {
+      "rule": "ramp",
+      "night_rule": false,
+      "tau": 0.015,
+      "fpr_validation": 0.0035842293906810036
+    }
+  ],
+  "physics_fpr_validation": 0.004887585532746823,
+  "physics_fpr_attack_days": 0.0,
+  "site_names": {
+    "Coast": "Coast",
+    "ERCOT_total": "ERCOT_total",
+    "East": "East",
+    "Far_West": "Far_West",
+    "North": "North",
+    "North_Central": "North_Central",
+    "South_Central": "South_Central",
+    "Southern": "Southern",
+    "West": "West"
+  },
+  "da_columns": {
+    "ERCOT_total": 99,
+    "Coast": 99,
+    "East": 99,
+    "Far_West": 99,
+    "North_Central": 99,
+    "North": 99,
+    "South_Central": 99,
+    "Southern": 99,
+    "West": 99
+  },
+  "da_lag_hours": 0,
+  "n_train": 3141,
+  "n_test": 3276,
+  "n_attack_subset": 216,
+  "n_test_with_covariate": 3132,
+  "hours": 17520,
+  "missing_frac": 0.0
+}

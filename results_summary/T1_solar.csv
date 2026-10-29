@@ -1,0 +1,14 @@
+Item,Solar PV (22 sites)
+Series,22 existing PV sites
+Size (MW AC capacity),1.1 – 230.0 (sum 651)
+Hourly values per series,"17,520 (2017–2018)"
+Training windows (2017),"7,678"
+"Test windows (2018, all days)","8,008"
+Attack windows (days 8 and 22 of each month),528
+Test windows with day-ahead covariate,"7,656"
+Physics check: level tolerance τ_b,0.075
+Physics check: ramp tolerance τ_r,0.075
+Ramp limit R0 + τ_r (per hour),0.625 – 0.765
+Night-zero rule,yes
+"Clean false alarms, validation days",0.87 %
+"Clean false alarms, attack days",0.95 %

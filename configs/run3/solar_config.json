@@ -1,0 +1,19 @@
+{
+  "context_len": 384,
+  "horizon": 24,
+  "issue_hour_utc": 6,
+  "attack_window": 24,
+  "eps_list": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "pgd_steps": 20,
+  "pgd_alpha_frac": 0.125,
+  "batch_size": 32,
+  "seed": 0,
+  "physics_target_fpr": 0.01,
+  "ramp_quantile": 0.999,
+  "threads": 2,
+  "extra": {}
+}

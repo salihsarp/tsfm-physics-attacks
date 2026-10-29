@@ -1,0 +1,14 @@
+Item,Load (9 series)
+Series,9 load series (8 weather zones + ERCOT total)
+Size (MW 2017 peak),"1,845.5 – 69,556.7 (sum 142,322)"
+Hourly values per series,"17,520 (2017–2018)"
+Training windows (2017),"3,141"
+"Test windows (2018, all days)","3,276"
+Attack windows (days 8 and 22 of each month),216
+Test windows with day-ahead covariate,"3,132"
+Physics check: level tolerance τ_b,0.300
+Physics check: ramp tolerance τ_r,0.015
+Ramp limit R0 + τ_r (per hour),0.076 – 0.130
+Night-zero rule,not applicable
+"Clean false alarms, validation days",0.49 %
+"Clean false alarms, attack days",0.00 %

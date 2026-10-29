@@ -1,0 +1,7 @@
+Attacked input,Constraint,ε=0.02,ε=0.05,ε=0.10
+Day-ahead forecast feed (next 24 h),PC,7.3,29.7,79.0
+Day-ahead forecast feed (next 24 h),UC,7.2,31.5,72.0
+Measured history (last 24 h),PC,6.8,15.1,29.3
+Measured history (last 24 h),UC,6.7,15.1,25.2
+"Measured history, Chronos-2 without covariate",UC,58.9,139.8,221.3
+"Measured history, Chronos-2 without covariate",PC,58.5,135.7,256.2

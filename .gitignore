@@ -1,0 +1,15 @@
+# large or generated content (re-created by run_all.sh)
+data/
+weights/
+results/
+results_v*/
+figures/
+figures_v*/
+logs/
+paper_results/
+*.tar.gz
+.deps_ok
+__pycache__/
+*.pyc
+.DS_Store
+publish_to_github.sh

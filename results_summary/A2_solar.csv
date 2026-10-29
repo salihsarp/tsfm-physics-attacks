@@ -1,0 +1,7 @@
+Model,Constraint,24 h,96 h,384 h
+Chronos-2,PC,4.3,12.0,32.6
+Chronos-2,UC,15.3,30.4,110.5
+Chronos-Bolt (small),PC,3.1,3.1,10.4
+Chronos-Bolt (small),UC,4.2,12.2,50.7
+LSTM,PC,1.7,3.0,1.4
+LSTM,UC,7.1,8.5,10.1

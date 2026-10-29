@@ -1,0 +1,17 @@
+# Python 3.11. Install these first, then the two forecasting packages WITHOUT dependencies:
+#   pip install -r requirements.txt
+#   pip install --no-deps chronos-forecasting==2.3.2 timesfm==3.0.2
+torch>=2.4
+einops
+accelerate<2
+transformers<6
+safetensors
+huggingface_hub
+numpy
+pandas
+scikit-learn
+h5py
+pvlib
+matplotlib
+openpyxl
+requests

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Physically constrained adversarial attacks on time-series foundation models for day-ahead solar and load forecasting (code)"
+authors:
+  - family-names: Sarp
+    given-names: Salih
+    orcid: "https://orcid.org/0000-0001-6674-2590"
+    affiliation: "Gebze Technical University"
+version: 1.0.0
+date-released: 2026-10-29
+license: MIT
+repository-code: "https://github.com/salihsarp/tsfm-physics-attacks"
+keywords:
+  - time-series foundation models
+  - adversarial attacks
+  - load forecasting
+  - solar forecasting
+  - false data injection
